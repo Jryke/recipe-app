@@ -1,0 +1,124 @@
+/* base styles */
+* {
+    font-family: Verdana;
+}
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    background-image: url("/images/cook-2364182_1920.jpg"); 
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+.button {
+    font-size: 75%;
+    font-weight: bold;
+    border:3px solid #2d4552;
+	border-radius:10px;
+	height: 30px;
+    width: 200px;
+    margin: 1rem;
+}
+#info-background {
+    background: rgb(252, 234, 187);
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/* container */
+.container {
+    background: rgb(252, 234, 187);
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0 1.6rem;
+}
+
+/* header */
+.header {
+    background-color: rgb(175, 69, 42);
+    padding: .6rem 0;
+}
+.footer{
+    background-color: rgb(175, 69, 42);
+    padding: 4.6rem 0;
+}
+.header-title {
+    color: rgb(233, 233, 135);
+}
+
+/* recipes */
+.box {
+	border:3px solid #2d4552;
+    border-radius:10px;
+    background-color: rgb(225, 225, 145);
+	height: 25px;
+    width: 250px;
+    margin: 1rem;
+}
+#add-recipe-button {
+    background-color: rgb(71, 179, 71);
+    color: #1a2830;
+}
+#add-recipe-button:hover {
+    background-color: yellow;
+}
+.recipe {
+    color: black;
+    border: 3px solid green;
+    padding-left: 8px;
+    padding-top: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.recipe-name:hover {
+    background-color: yellow;
+}
+.have-ingredients-message {
+    font-size: 60%;
+    color: grey;
+}
+#delete-recipe {
+    background-color: red;
+}
+
+/* recipes edit */
+#index-button {
+    background-color: green;
+    color: #1a2830;
+}
+#index-button:hover {
+    background-color: yellow;
+}
+#recipe-name {
+    width: 100%;
+    border: 3px solid #2d4552;
+    background-color: rgb(225, 225, 145);
+    font-size: 150%;
+    font-weight: bold;
+}
+#add-ingredient-input {
+    background-color: rgb(225, 225, 145);
+}
+.recipe-box {
+    text-decoration-line: none;
+}
+#steps {
+    width: 97.5%;
+    height: 120px;
+    border: 3px solid #2d4552;
+    background-color: rgb(225, 225, 145);
+    padding: 5px;
+}
+.remove-button {
+    float: right;
+}
+#delete-recipe {
+    float: right;
+}
+
+
+
