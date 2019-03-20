@@ -7,7 +7,7 @@ const currentRecipe = recipesArray.find((recipe) => recipe.id === recipeId)
 
 // Go to index page button (edit page)
 document.querySelector('#index-button').addEventListener('click', (e) => {
-    location.assign('/index.html')
+    location.assign('https://jryke.github.io/recipe-app/')
     saveRecipes()
 })
 
@@ -38,6 +38,6 @@ document.querySelector('#add-ingredient-input').addEventListener('change', (e) =
 document.querySelector('#delete-recipe').addEventListener('click', (e) => {
     deleteRecipe(recipeId)
     saveRecipes()
-    location.assign('/index.html')
+    location.assign('https://jryke.github.io/recipe-app/')
     // add bubble? to confirm user wants to delete recipe
 })
