@@ -19,7 +19,7 @@ document.querySelector('#add-recipe-button').addEventListener('click', (e) => {
         id: id,
     })
     saveRecipes()
-    location.assign(`/edit.html#${id}`)
+    location.assign(`edit.html#${id}`)
 })
 
 // Toggle all recipes and recipes with all ingredients
