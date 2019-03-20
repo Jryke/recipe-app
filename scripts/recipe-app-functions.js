@@ -83,7 +83,7 @@ const renderRecipes = () => {
 
         filteredAndSearchedRecipes.forEach((recipe) => {
             const recipeBoxEl = document.createElement('a')
-            recipeBoxEl.setAttribute('href', `/edit.html#${recipe.id}`)
+            recipeBoxEl.setAttribute('href', `edit.html#${recipe.id}`)
             recipeBoxEl.classList.add('recipe-box')
             const recipeNameEl = document.createElement('h2')
             recipeNameEl.classList.add('recipe')
