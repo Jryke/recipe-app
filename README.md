@@ -13,6 +13,8 @@ The main page shows a list of recipes by name.  These recipes can be sorted by a
 The "add recipe" button navigates to the edit page with empty recipe fields to be completed by the user.
 
 ## Edit Page
+
+### Text Inputs
 The recipe edit has 3 different text input fields.
 * Recipe name (string)
 * Recipe ingredients(array of strings)
@@ -21,6 +23,6 @@ The recipe edit has 3 different text input fields.
   * If the user/chef wants to remove an ingredient from the recipe, there is a "remove" button for each ingredient
 * Recipe instructions (string)
 
-Buttons
+### Buttons
 * Go back to recipes list - saves the recipe information in local storage and navigates back to the main page of recipes
 * Remove recipe - deletes the recipe from storage and navigates back to the main page of recipes
